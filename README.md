@@ -26,3 +26,13 @@ The complexity of the hash function is O(1) average but, it can suffer a worst-c
   - Entries()            : To extract all the entries that are stored in Hashtable as key,value pair.
 ### Working Process
 No dependencies of any library. The main HashTable class has to be initialized first.
+
+### Group Members:
+
+ - Muneeb Sikandar (19B-083-SE)
+ - Muhammad Waqar (19B-116-SE)
+
+License
+----
+
+MIT
