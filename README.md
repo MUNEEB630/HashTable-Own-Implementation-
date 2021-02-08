@@ -5,3 +5,8 @@ HashTable is a data structure that implements an associative array of abstract d
 
   - Chaining method. 
   - Linear probing.
+#Some keypoints:
+  -The load factor of the hash table is 0.75. It means the capacity and the number of buckets that are inside hashtable to be filled and by the load factor, we can calculate it if needs to increased or not.
+The complexity of the hash function is O(1) average but, it can suffer a worst-case in o(n) due to two reasons:
+  - 1) If two many elements hashed into the same index. Looking for the key is o(n) times.
+  - Once it passes its load factor, it needs to be resized. So, the rehashing might take in o(n). It depends upon values if too many values have the same key finding them may take time.
