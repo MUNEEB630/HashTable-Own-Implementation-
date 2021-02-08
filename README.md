@@ -16,11 +16,13 @@ The complexity of the hash function is O(1) average but, it can suffer a worst-c
 
 # Functions Used in HashTable:
 
-  - Get_Hash().
-  - ReHash() or Resize().
-  - Search(Get_Item()).
-  - Delete(Del_Item()).
-  - Put(Set_Item()).
-  - IsEmpty().
-  - Keys().
-  - Entries().
+  - Get_Hash() : Geting hashmap location using key to store value.
+  - ReHash() or Resize() : When hashmap crosses load factor or filled upto 75% then we use rehash or resize.
+  - Search(Get_Item())   : Finding value from the Hashtable using key.
+  - Delete(Del_Item())   : deleting value from the Hashtable using key.
+  - Put(Set_Item())      : Setting value in Hashtable using the key.
+  - IsEmpty()            : Checking if Hashtable is empty or not.
+  - Keys()               : To extract all keys that are store for the values respectively.
+  - Entries()            : To extract all the entries that are stored in Hashtable as key,value pair.
+### Working Process
+No dependencies of any library. The main HashTable class has to be initialized first.
