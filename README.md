@@ -21,6 +21,6 @@ The complexity of the hash function is O(1) average but, it can suffer a worst-c
   - Search(Get_Item()).
   - Delete(Del_Item()).
   - Put(Set_Item()).
-  - -IsEmpty().
+  - IsEmpty().
   - Keys().
   - Entries().
