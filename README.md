@@ -32,6 +32,11 @@ No dependencies of any library. The main HashTable class has to be initialized f
  - Muneeb Sikandar (19B-083-SE)
  - Muhammad Waqar (19B-116-SE)
 
+#### Reference
+
+See [Open data Structures](https://opendatastructures.org/)
+See [Introduction to algorithm third-edition](https://www.amazon.com/Introduction-Algorithms-Eastern-Economy-Thomas/dp/8120340078/ref=pd_lpo_14_t_0/145-4997158-2592204?_encoding=UTF8&pd_rd_i=8120340078&pd_rd_r=b721bd17-aac9-4e4c-afc8-817fd7fc1378&pd_rd_w=JrnOd&pd_rd_wg=HYh5m&pf_rd_p=16b28406-aa34-451d-8a2e-b3930ada000c&pf_rd_r=YG963B6NAV7J3QGKVSE6&psc=1&refRID=YG963B6NAV7J3QGKVSE6)
+
 License
 ----
 
