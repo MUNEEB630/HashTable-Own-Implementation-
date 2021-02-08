@@ -13,12 +13,14 @@ The complexity of the hash function is O(1) average but, it can suffer a worst-c
   - Once it passes its load factor, it needs to be resized. So, the rehashing might take in o(n). It depends upon values if too many values have the same key finding them may take time.
   - Hash function has many methods, such as the division method,  multiplication method, universal hashing, and perfect hashing.
   - But, it is quite rare that many elements will be hashed to the same key. If it is a better hash function.
-# Functions Use in HashTable:
-  -Get_Hash().
-  -ReHash() or Resize() . 
-  -Search(Get_Item()).
-  -Delete(Del_Item()).
-  -Put(Set_Item()).
-  -IsEmpty().
-  -Keys().
-  -Entries().
+
+# Functions Used in HashTabl:
+
+  - Get_Hash().
+  - ReHash() or Resize().
+  - Search(Get_Item()).
+  - Delete(Del_Item()).
+  - Put(Set_Item()).
+  - -IsEmpty().
+  - Keys().
+  - Entries().
