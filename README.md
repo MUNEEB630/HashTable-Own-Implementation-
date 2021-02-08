@@ -13,3 +13,10 @@ The complexity of the hash function is O(1) average but, it can suffer a worst-c
   - Once it passes its load factor, it needs to be resized. So, the rehashing might take in o(n). It depends upon values if too many values have the same key finding them may take time.
   - Hash function has many methods, such as the division method,  multiplication method, universal hashing, and perfect hashing.
   - But, it is quite rare that many elements will be hashed to the same key. If it is a better hash function.
+# Functions Use in HashTable:
+  -.
+The complexity of the hash function is O(1) average but, it can suffer a worst-case in o(n) due to two reasons:
+  - If two many elements hashed into the same index. Looking for the key is o(n) times.
+  - Once it passes its load factor, it needs to be resized. So, the rehashing might take in o(n). It depends upon values if too many values have the same key finding them may take time.
+  - Hash function has many methods, such as the division method,  multiplication method, universal hashing, and perfect hashing.
+  - But, it is quite rare that many elements will be hashed to the same key. If it is a better hash function.
