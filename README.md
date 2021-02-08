@@ -14,7 +14,7 @@ The complexity of the hash function is O(1) average but, it can suffer a worst-c
   - Hash function has many methods, such as the division method,  multiplication method, universal hashing, and perfect hashing.
   - But, it is quite rare that many elements will be hashed to the same key. If it is a better hash function.
 
-# Functions Used in HashTabl:
+# Functions Used in HashTable:
 
   - Get_Hash().
   - ReHash() or Resize().
